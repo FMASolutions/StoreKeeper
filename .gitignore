@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+StoreKeeper.API/appsettings.json
+StoreKeeper.Data/Migrations/*.*
+
 # User-specific files
 *.rsuser
 *.suo
