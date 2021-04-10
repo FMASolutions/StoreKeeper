@@ -5,6 +5,8 @@
 
 StoreKeeper.API/appsettings.json
 StoreKeeper.Data/Migrations/*.*
+.vscode
+*.code-workspace
 
 # User-specific files
 *.rsuser
