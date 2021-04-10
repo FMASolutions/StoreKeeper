@@ -1,5 +1,5 @@
 using FluentValidation;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services.DTOs;
 using StoreKeeper.Core.Models;
 
 namespace StoreKeeper.Services.Validators

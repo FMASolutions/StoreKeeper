@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using StoreKeeper.Core.Services;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services;
+using StoreKeeper.Services.DTOs;
 
 namespace StoreKeeper.API.Controllers
 {

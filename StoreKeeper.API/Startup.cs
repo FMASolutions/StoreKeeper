@@ -4,10 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using StoreKeeper.Core;
-using StoreKeeper.Core.Services;
-using StoreKeeper.Data;
 using StoreKeeper.Services;
+using StoreKeeper.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace StoreKeeper.API
@@ -21,7 +19,6 @@ namespace StoreKeeper.API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
@@ -32,7 +29,6 @@ namespace StoreKeeper.API
             services.AddSwaggerGen(c =>{ c.SwaggerDoc("v1", new OpenApiInfo { Title = "StoreKeeper.API", Version = "v1" }); });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -41,7 +37,6 @@ namespace StoreKeeper.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "StoreKeeper.API v1"));
             }
-
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();

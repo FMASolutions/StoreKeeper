@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using StoreKeeper.Core.Repositories;
 
-namespace StoreKeeper.Core
+namespace StoreKeeper.Data
 {
     public interface IUnitOfWork : IDisposable
     {

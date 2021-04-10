@@ -3,6 +3,7 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="FluentValidation" Version="9.5.4" />
     <ProjectReference Include="..\StoreKeeper.Core\StoreKeeper.Core.csproj" />
+    <ProjectReference Include="..\StoreKeeper.Data\StoreKeeper.Data.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>

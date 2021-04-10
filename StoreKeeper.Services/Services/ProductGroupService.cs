@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using StoreKeeper.Core;
 using StoreKeeper.Core.Models;
-using StoreKeeper.Core.Services;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services.DTOs;
 using StoreKeeper.Services.Validators;
+using StoreKeeper.Data;
 
 namespace StoreKeeper.Services
 {

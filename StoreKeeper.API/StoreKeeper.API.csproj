@@ -12,7 +12,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StoreKeeper.Core\StoreKeeper.Core.csproj" />
     <ProjectReference Include="..\StoreKeeper.Services\StoreKeeper.Services.csproj" />
     <ProjectReference Include="..\StoreKeeper.Data\StoreKeeper.Data.csproj" />
   </ItemGroup>

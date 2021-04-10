@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services.DTOs;
 
-namespace StoreKeeper.Core.Services
+namespace StoreKeeper.Services
 {
     public interface ISubGroupService
     {

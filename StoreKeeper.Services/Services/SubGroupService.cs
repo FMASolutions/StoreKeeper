@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using StoreKeeper.Core;
-using StoreKeeper.Core.Services;
 using StoreKeeper.Core.Models;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services.DTOs;
+using StoreKeeper.Data;
 
 namespace StoreKeeper.Services
 {

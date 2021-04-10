@@ -19,5 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\StoreKeeper.Services\StoreKeeper.Services.csproj" />
     <ProjectReference Include="..\StoreKeeper.Core\StoreKeeper.Core.csproj" />
+    <ProjectReference Include="..\StoreKeeper.Data\StoreKeeper.Data.csproj" />
   </ItemGroup>
 </Project>

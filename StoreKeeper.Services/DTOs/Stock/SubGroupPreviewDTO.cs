@@ -1,4 +1,4 @@
-namespace StoreKeeper.Core.DTOs
+namespace StoreKeeper.Services.DTOs
 {
     public class SubGroupPreviewDTO
     {

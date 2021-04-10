@@ -1,10 +1,11 @@
 using System;
 using Xunit;
 using StoreKeeper.Core.Models;
-using StoreKeeper.Core.DTOs;
+using StoreKeeper.Services.DTOs;
 using StoreKeeper.Services;
-using StoreKeeper.Core;
 using Moq;
+using StoreKeeper.Data;
+
 namespace StoreKeeper.TestSuite
 {
     public class ProductGroupServiceTests
